@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="تنظیمات" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/about"
+            android:title="درباره ما" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ques"
+            android:title="سوالات متداول" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/guid"
+            android:title="آموزش نرم افزار" />
+
+    </group>
+
+    <item android:title="ارتباطات">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="معرفی به دوستان"
+                />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/comuni"
+                android:title="ارتباط با ما" />
+        </menu>
+    </item>
+
+</menu>

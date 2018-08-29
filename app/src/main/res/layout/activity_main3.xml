@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".activities.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2134"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="9dp">
+
+        <com.example.kavan.behrouzkhani.myCustoms.MyTextView
+            android:id="@+id/textId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textSize="15sp" />
+
+        <com.example.kavan.behrouzkhani.myCustoms.MyTextView
+            android:id="@+id/textUserName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="25sp" />
+
+        <com.example.kavan.behrouzkhani.myCustoms.MyTextView
+            android:id="@+id/textPassword1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="25sp" />
+
+        <com.example.kavan.behrouzkhani.myCustoms.MyTextView
+            android:id="@+id/textIsLike1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IsLike"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</RelativeLayout>
